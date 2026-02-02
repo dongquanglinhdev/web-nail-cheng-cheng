@@ -79,7 +79,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`md:hidden overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96 pb-4' : 'max-h-0'}`}>
+        <div className={`md:hidden overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-120 pb-4' : 'max-h-0'}`}>
           <div className="flex flex-col gap-2 bg-white rounded-2xl p-4 shadow-soft">
             {navLinks.map((link) => (
               <a
